@@ -41,18 +41,15 @@ description: Machines should work. Everyone should benefit.
             <p>We're building our business with a low-cost foodtruck while we work on the robotics equipment that will automate food prep for us. Follow the links below to learn more about our progress. </p>
             <hr/>
             <div>
-                <a>
-                    <h4>Foodtruck business plan</h4>
-                    <span class="image fit"><img src="assets/images/oldtimer-2436018_1920.jpg"/></span>
-                    <p>We're developing an open business plan to show others how they can start a worker-owned foodtruck that can be transitioned to automation.</p>
-                </a>
+                <h4><a href="plan">Foodtruck business plan</a></h4>
+                <span class="image fit"><a href="plan"><img src="assets/images/oldtimer-2436018_1920.jpg"/></a></span>
+                <p><a href="plan">We're developing an open business plan to show others how they can start a worker-owned foodtruck that can be transitioned to automation.</a></p>
             </div>
             <hr/>
             <div>
-                <a href="https://bonkerfield.org/su_chef/">
-                    <h4>Robotic Sous Chef</h4>
-                    <span class="image fit"><img src="https://bonkerfield.org/assets/images/2020/braccio_push.gif"/></span>
-                    <p>We're starting to build the equipment that can automate .</p>
+                    <h4><a href="https://bonkerfield.org/su_chef/">Robotic Sous Chef</a></h4>
+                    <span class="image fit"><a href="https://bonkerfield.org/su_chef/"><img src="https://bonkerfield.org/assets/images/2020/braccio_push.gif"/></a></span>
+                    <p><a href="https://bonkerfield.org/su_chef/">We're designing equipment that can flexibly automate kitchen duties.</a></p>
                 </a>
             </div>
         </div>

@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site
 github_url:
 instagram_url:
 linkedin_url: https://www.linkedin.com/in/will-stedden
-twitter_url: https://twitter.com/bonkerfield
+twitter_url: https://twitter.com/WORCFoods
 
 # Build settings
 markdown: kramdown
