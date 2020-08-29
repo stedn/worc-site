@@ -1,14 +1,18 @@
 <!-- Footer -->
+<script type="text/javascript">var submitted=false;</script>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='{{site.url}}{{site.baseurl}}/contact-success/';}"></iframe>
+
 <section id="footer">
 	<div class="container">
 		<header class="major">
-			<h2>Get in touch</h2>
+			<h2>How to help</h2>
 		</header>
-		<form action="https://formspree.io/{{ site.email }}" method="POST">
+		<p>We want to make businesses better for everyone, and we need all the help we can get. Interested? Today we're growing our team and looking for partnerships to help get us off the ground.  If you'd like to be involved please send us a message.</p>
+		<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScR9nymDVWWK2Eza_kwH8jV54_elV8oNJhwjPR45GThJ80ebA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
 			<div class="row uniform">
-				<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-				<div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" id="email" placeholder="Email" /></div>
-				<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+				<div class="6u 12u$(xsmall)"><input type="text" name="entry.1334936582" id="name" placeholder="Name" /></div>
+				<div class="6u$ 12u$(xsmall)"><input type="email" name="entry.1352045854" id="email" placeholder="Email" /></div>
+				<div class="12u$"><textarea name="entry.123592912" id="message" placeholder="Message" rows="4"></textarea></div>
 				<div class="12u$">
 					<ul class="actions">
 						<li><input type="submit" value="Send Message" class="special" /></li>
@@ -51,7 +55,7 @@
 				{% endif %}
 		</ul>
 		<ul class="copyright">
-			<li>&copy; {{ site.title }}</li><li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></li><li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+			<li>&copy; {{ site.title }}</li><li>Site Template: <a href="https://github.com/andrewbanchich/Highlights-Jekyll-Theme" target="_blank">Highlights</a></li>
 		</ul>
 	</footer>
 </section>
