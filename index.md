@@ -47,10 +47,9 @@ description: Machines should work. Everyone should benefit.
             </div>
             <hr/>
             <div>
-                    <h4><a href="https://bonkerfield.org/su_chef/">Robotic Sous Chef</a></h4>
-                    <span class="image fit"><a href="https://bonkerfield.org/su_chef/"><img src="https://bonkerfield.org/assets/images/2020/braccio_push.gif"/></a></span>
-                    <p><a href="https://bonkerfield.org/su_chef/">We're designing equipment that can flexibly automate kitchen duties.</a></p>
-                </a>
+                <h4><a href="https://bonkerfield.org/su_chef/">Robotic Sous Chef</a></h4>
+                <span class="image fit"><a href="https://bonkerfield.org/su_chef/"><img src="assets/images/suchef_slices.gif"/></a></span>
+                <p><a href="https://bonkerfield.org/su_chef/">We're designing equipment that can flexibly automate kitchen duties so that our workers can spend there time on other things.</a></p>
             </div>
         </div>
         <a href="#footer" class="goto-next scrolly">Next</a>
