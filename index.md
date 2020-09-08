@@ -42,7 +42,7 @@ description: Machines should work. Everyone should benefit.
             <hr/>
             <div>
                 <h4><a href="plan">Foodtruck business plan</a></h4>
-                <span class="image fit"><a href="plan"><img src="assets/images/oldtimer-2436018_1920.jpg"/></a></span>
+                <span class="image fit"><a href="plan"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSMUadZeKCsSbOKKS-eImVG8PR-4NmoNO5tWgyFbqAebpQUf3T2Jd3-GlmqILig5zutbdGItDRDXMga/pub?w=1440&h=1080"/></a></span>
                 <p><a href="plan">We're developing an open business plan to show others how they can start a worker-owned foodtruck that can be transitioned to automation.</a></p>
             </div>
             <hr/>
