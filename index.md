@@ -7,12 +7,13 @@ description: Machines should work. Everyone should benefit.
     <header class="major">
         <h1>{{page.title}}</h1>
         <p>{{page.description}}</p>
+        <a href="#one" class="button special scrolly" style="margin:20px;">Begin</a>
     </header>
-    <div class="container">
+    <!-- <div class="container">
         <ul class="actions">
-            <li><a href="#one" class="button special scrolly">Begin</a></li>
+            <li></li>
         </ul>
-    </div>
+    </div> -->
 </section>
 <!-- One -->
 <section id="one" class="main special">
@@ -38,14 +39,12 @@ description: Machines should work. Everyone should benefit.
             <header class="major">
                 <h2>Our Plan</h2>
             </header>
-            <p>We're building our business with a low-cost foodtruck while we work on the robotics equipment that will automate food prep for us. Follow the links below to learn more about our progress. </p>
-            <hr/>
+            <p>We're building our business with a low-cost foodtruck run as a cooperative while we work on the robotics equipment that will automate food prep for us. Follow the links below to learn more about our progress. </p>
             <div>
                 <h4><a href="plan">Foodtruck business plan</a></h4>
                 <span class="image fit"><a href="plan"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSMUadZeKCsSbOKKS-eImVG8PR-4NmoNO5tWgyFbqAebpQUf3T2Jd3-GlmqILig5zutbdGItDRDXMga/pub?w=1440&h=1080"/></a></span>
                 <p><a href="plan">We're developing an open business plan to show others how they can start a worker-owned foodtruck that can be transitioned to automation.</a></p>
             </div>
-            <hr/>
             <div>
                 <h4><a href="https://bonkerfield.org/su_chef/">Robotic Sous Chef</a></h4>
                 <span class="image fit"><a href="https://bonkerfield.org/su_chef/"><img src="assets/images/suchef_slices.gif"/></a></span>

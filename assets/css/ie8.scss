@@ -1,3 +1,10 @@
+---
+---
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+
 /*
 	Highlights by HTML5 UP
 	html5up.net | @ajlkn
@@ -16,13 +23,17 @@
 
 /* List */
 
-	ul.actions li {
-		padding: 0 0 0 1em;
-	}
+	ul {
+		&.actions {
+			li {
+				padding: 0 0 0 (_size(element-margin) * 0.5);
 
-		ul.actions li:first-child {
-			padding-left: 0;
+				&:first-child {
+					padding-left: 0;
+				}
+			}
 		}
+	}
 
 /* Form */
 
@@ -31,25 +42,26 @@
 	input[type="email"],
 	select,
 	textarea {
-		border: solid 2px #dddddd;
+		border: solid 2px _palette(border);
 		position: relative;
 	}
 
 	input[type="text"],
 	input[type="password"],
 	input[type="email"] {
-		line-height: 3em;
+		line-height: _size(element-height);
 	}
 
 	input[type="checkbox"],
 	input[type="radio"] {
 		font-size: 3em;
-	}
 
-		input[type="checkbox"] + label:before,
-		input[type="radio"] + label:before {
-			display: none;
+		& + label {
+			&:before {
+				display: none;
+			}
 		}
+	}
 
 /* Button */
 
@@ -58,7 +70,7 @@
 	input[type="button"],
 	button,
 	.button {
-		border: solid 2px #dddddd;
+		border: solid 2px _palette(border);
 	}
 
 /* Main BG */
@@ -71,30 +83,19 @@
 
 	.main {
 		background-size: cover;
-	}
 
-		.main .container {
-			background: #fff;
-			border-top: solid 1px #dddddd;
+		.container {
+			background: _palette(bg);
+			border-top: solid 1px _palette(border);
 			position: relative;
 			z-index: 1;
 		}
 
-		.main .goto-next {
-			text-decoration: none;
-		}
+		.goto-next {
+			@include icon;
 
-			.main .goto-next:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
-				font-style: normal;
-				font-weight: normal;
-				text-transform: none !important;
-			}
-
-			.main .goto-next:before {
-				color: #dddddd;
+			&:before {
+				color: _palette(border);
 				content: '\f063';
 				display: block;
 				font-size: 2em;
@@ -107,41 +108,43 @@
 				top: 0;
 				width: 2em;
 			}
+		}
+	}
 
 /* Header */
 
 	#header {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-		background-image: url("../../assets/images/road_animation.gif");
+		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+		background-image: url('../../assets/images/road_animation.gif');
 		background-size: cover;
 		height: 100%;
-	}
 
-		#header:after {
+		&:after {
 			min-height: 100%;
 		}
 
-		#header header {
+		header {
 			position: relative;
 			z-index: 1;
 		}
 
-		#header .container {
-			background: #fff;
+		.container {
+			background: _palette(bg);
 			z-index: 1;
 		}
+	}
 
 /* Footer */
 
 	#footer {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-		background-image: url("../../assets/images/road_animation.gif");
+		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+		background-image: url('../../assets/images/road_animation.gif');
 		background-size: cover;
-	}
 
-		#footer .container {
-			background: #fff;
-			border-top: solid 1px #dddddd;
+		.container {
+			background: _palette(bg);
+			border-top: solid 1px _palette(border);
 			position: relative;
 			z-index: 1;
 		}
+	}
