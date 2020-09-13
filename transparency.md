@@ -11,7 +11,7 @@ title: Transparency
             <header class="major">
                 <h2>{{page.title}}</h2>
             </header>
-            <p>Description</p>
+            <p>We're dedicated to making our ideas as clear and open as possible.  We want to make our entire system open data, from ingredients to sales to wages.</p>
         </div>
     </div>
 </section>

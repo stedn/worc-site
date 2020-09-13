@@ -26,7 +26,7 @@
 		boxModel: 'border',
 		grid: ( gutters: 1.5em ),
 		conditionals: true,
-		containers: 50em,
+		containers: 70em,
 		breakpoints: (
 			large: (
 			),
@@ -60,6 +60,15 @@
 		background-position:	top left,					center center;
 		background-repeat:		repeat,						none;
 		background-size:		auto,						cover;
+	}
+
+
+	@media (min-width: 980px) {
+	  /* CSS that should be displayed if width is equal to or less than 980px goes here */
+	    .triple {
+			width:33%;
+			float:left;
+		}
 	}
 
 	html {

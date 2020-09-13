@@ -11,7 +11,7 @@ title: Sustainability
             <header class="major">
                 <h2>{{page.title}}</h2>
             </header>
-            <p>Description</p>
+            <p>We believe that it is imperative for every business to operate in a sustainable manner.  We will build our systems to ensure that our operations have minimal negative impacts on environment and society.  As we develop our technologies, we will aim to be at the forefront of sustainable innovation.</p>
         </div>
     </div>
 </section>

@@ -1,1 +1,38 @@
 <!-- Header -->
+<style>
+    #navbar {
+      padding: 10px 20px;
+      width:100%;
+    }
+    #navbar nav a{
+      color: white;
+      margin: 5px;
+      padding: 10px;
+      over-flow: hidden;
+      text-align:left;
+    }
+    @media (max-width: 980px) {
+      /* CSS that should be displayed if width is equal to or less than 980px goes here */
+        #navbar {
+          padding: 10px 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        #navbar nav a{
+          color: white;
+          margin: 5px;
+          padding: 10px;
+          over-flow: hidden;
+        }
+    }
+</style>
+<div id="navbar">
+  <nav>
+    <a href='#one' class="goto-next scrolly">MISSION</a>
+    <a href='#two' class="goto-next scrolly">PLAN</a>
+    <a href='#three' class="goto-next scrolly">VALUES</a>
+    <a href='#footer' class="goto-next scrolly">CONTACT</a>
+    <!-- <a href='#'>BLOG</a> -->
+  </nav>
+</div>

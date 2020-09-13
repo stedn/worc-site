@@ -11,7 +11,7 @@ title: Quality Service
             <header class="major">
                 <h2>{{page.title}}</h2>
             </header>
-            <p>Description</p>
+            <p>We believe that better food and better relationships will make our community a healthier place.  We are dedicated to ensuring the highest quality of food and services.</p>
         </div>
     </div>
 </section>

@@ -11,7 +11,7 @@ title: Collective Empowerment
             <header class="major">
                 <h2>{{page.title}}</h2>
             </header>
-            <p>Description</p>
+            <p>We believe that the workers and the community we serve are stronger together.  We want to empower our workers to win back their time and to build a strong financial foundation.  We want our community to know that our business has their best intentions in mind. We believe that together we can empower each other to make lasting change for the better in our society.</p>
         </div>
     </div>
 </section>

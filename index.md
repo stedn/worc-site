@@ -7,7 +7,7 @@ description: Machines should work. Everyone should benefit.
     <header class="major">
         <h1>{{page.title}}</h1>
         <p>{{page.description}}</p>
-        <a href="#one" class="button special scrolly" style="margin:20px;">Begin</a>
+        <a href="#one" class="button special scrolly" style="margin:20px;padding-left:15px;padding-right:15px;">Begin</a>
     </header>
     <!-- <div class="container">
         <ul class="actions">
@@ -41,14 +41,21 @@ description: Machines should work. Everyone should benefit.
             </header>
             <p>We're building our business with a low-cost foodtruck run as a cooperative while we work on the robotics equipment that will automate food prep for us. Follow the links below to learn more about our progress. </p>
             <div>
-                <h4><a href="plan">Foodtruck business plan</a></h4>
-                <span class="image fit"><a href="plan"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSMUadZeKCsSbOKKS-eImVG8PR-4NmoNO5tWgyFbqAebpQUf3T2Jd3-GlmqILig5zutbdGItDRDXMga/pub?w=1440&h=1080"/></a></span>
-                <p><a href="plan">We're developing an open business plan to show others how they can start a worker-owned foodtruck that can be transitioned to automation.</a></p>
-            </div>
-            <div>
-                <h4><a href="https://bonkerfield.org/su_chef/">Robotic Sous Chef</a></h4>
-                <span class="image fit"><a href="https://bonkerfield.org/su_chef/"><img src="assets/images/suchef_slices.gif"/></a></span>
-                <p><a href="https://bonkerfield.org/su_chef/">We're designing equipment that can flexibly automate kitchen duties so that our workers can spend there time on other things.</a></p>
+                <div class="triple">
+                    <h4><a href="plan">Foodtruck designs</a></h4>
+                    <span class="image fit"><a href="plan"><img src="assets/images/truck_design.png"/></a></span>
+                    <p><a href="truck">Check out our truck design concepts.</a></p>
+                </div>
+                <div class="triple">
+                    <h4><a href="plan">Co-op business plan</a></h4>
+                    <span class="image fit"><a href="plan"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSMUadZeKCsSbOKKS-eImVG8PR-4NmoNO5tWgyFbqAebpQUf3T2Jd3-GlmqILig5zutbdGItDRDXMga/pub?w=1440&h=1080"/></a></span>
+                    <p><a href="plan">Our open co-op business plan lets us show others how they can start a worker-owned foodtruck.</a></p>
+                </div>
+                <div class="triple">
+                    <h4><a href="https://bonkerfield.org/su_chef/">Robotic Sous Chef</a></h4>
+                    <span class="image fit"><a href="https://bonkerfield.org/su_chef/"><img src="assets/images/suchef_slices.gif"/></a></span>
+                    <p><a href="robot">Follow our progress on our robotic kitchen helper.</a></p>
+                </div>
             </div>
         </div>
         <a href="#footer" class="goto-next scrolly">Next</a>
