@@ -3,6 +3,20 @@ layout: default
 title: WORC FOODS
 description: Machines should work. Everyone should benefit.
 ---
+<style>
+    .nothome {
+      display: none;
+    }
+</style>
+<div id="navbar">
+  <nav>
+    <a href='#one' class="goto-next scrolly">MISSION</a>
+    <a href='#two' class="goto-next scrolly">PLAN</a>
+    <a href='#three' class="goto-next scrolly">VALUES</a>
+    <a href='#footer' class="goto-next scrolly">CONTACT</a>
+    <!-- <a href='#'>BLOG</a> -->
+  </nav>
+</div>
 <section id="header">
     <header class="major">
         <h1>{{page.title}}</h1>
@@ -74,20 +88,20 @@ description: Machines should work. Everyone should benefit.
             <p>We don't serve shareholders or owners; we serve our communities, our fellow workers, and our society. This motivates our core values: </p>
             <ul class="icons-grid">
                 <li>
-                    <a href="#"><span class="icon major fa-heart"></span></a>
-                    <h3><a href="#">Quality Service</a></h3>
+                    <a href="quality"><span class="icon major fa-heart"></span></a>
+                    <h3><a href="quality">Quality Service</a></h3>
                 </li>
                 <li>
-                    <a href="#"><span class="icon major fa-leaf"></span></a>
-                    <h3><a href="#">Sustainability</a></h3>
+                    <a href="sustainability"><span class="icon major fa-leaf"></span></a>
+                    <h3><a href="sustainability">Sustainability</a></h3>
                 </li>
                 <li>
-                    <a href="#"><span class="icon major fa-hand-rock-o"></span></a>
-                    <h3><a href="#">Collective Empowerment</a></h3>
+                    <a href="empowerment"><span class="icon major fa-hand-rock-o"></span></a>
+                    <h3><a href="empowerment">Collective Empowerment</a></h3>
                 </li>
                 <li>
-                    <a href="#"><span class="icon major fa-search"></span></a>
-                    <h3><a href="#">Transparency</a></h3>
+                    <a href="transparency"><span class="icon major fa-search"></span></a>
+                    <h3><a href="transparency">Transparency</a></h3>
                 </li>
             </ul>
         </div>
