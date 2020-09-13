@@ -54,7 +54,7 @@ description: Machines should work. Everyone should benefit.
                 <div class="triple">
                     <h4><a href="https://bonkerfield.org/su_chef/">Robotic Sous Chef</a></h4>
                     <span class="image fit"><a href="https://bonkerfield.org/su_chef/"><img src="assets/images/suchef_slices.gif"/></a></span>
-                    <p><a href="robot">Follow our progress on our robotic kitchen helper.</a></p>
+                    <p><a href="https://bonkerfield.org/su_chef/">Follow our progress on our robotic kitchen helper.</a></p>
                 </div>
             </div>
         </div>
