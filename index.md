@@ -13,7 +13,6 @@ description: Machines should work. Everyone should benefit.
     <a href='#one' class="goto-next scrolly">MISSION</a>
     <a href='#two' class="goto-next scrolly">PLAN</a>
     <a href='#three' class="goto-next scrolly">VALUES</a>
-    <a href='#footer' class="goto-next scrolly">CONTACT</a>
     <!-- <a href='#'>BLOG</a> -->
   </nav>
 </div>
@@ -37,9 +36,8 @@ description: Machines should work. Everyone should benefit.
             <header class="major">
                 <h2>Our Mission</h2>
             </header>
-            <p>At WORC Foods, we know that food is essential, and that feeding our communities is a calling. At the same time, we know that food service is hard work, and that it's the restaurant workers who sacrifice so much to feed the world.
-            </p>
-            <p>We want to see a future where our workers see the benefit from innovations that make work easier. Towards that end, we are building a worker-owned cooperative business that seeks to automate the most laborious tasks in food preparation, and pass the financial benefit of automation directly to the workers.  In this way, we hope to usher in a new kind of economy, where every worker can focus their attention on solving the toughest problems of our future.</p>
+            <p>At WORC Foods, we are building a way for our workers to see the benefit from the innovations in automation and robotics that make work easier. We are a cooperative business that is automating the most laborious tasks in food preparation and passing the financial benefit of automation directly to our workers.  In this way, we hope to usher in a new kind of economy, where our food service workers are given the freedom to make our communities better.</p>
+            <p><a href="https://thespoon.tech/brookings-food-service-jobs-for-humans-in-jeopardy-as-automation-takes-hold/">Automation is coming</a> to the food service industry. If we don't plan ahead, food service jobs <a href="https://www.bbc.com/news/world-us-canada-42170100">will disappear</a> over the next 10 years, dealing a crushing economic blow. At WORC Foods, we know that food is essential, and that feeding each other is a calling. Our cafes and restaurants are more than just a place to eat, they are the places we come together. That's why we have a plan to keep our workers employed by transitioning our food service labor into value for our communities.</p>
         </div>
         <a href="#two" class="goto-next scrolly">Next</a>
     </div>
@@ -53,7 +51,9 @@ description: Machines should work. Everyone should benefit.
             <header class="major">
                 <h2>Our Plan</h2>
             </header>
-            <p>We're building our business with a low-cost foodtruck run as a cooperative while we work on the robotics equipment that will automate food prep for us. Follow the links below to learn more about our progress. </p>
+            <p>Our plan is to ride the wave of food service automation while preserving the financial benefits for our workers first, not shareholders and fast-food executives. With the time and financial freedom going to workers, we can fund artist, educators, and other support to keep our communities strong.
+            </p>
+            <p>We're launching our business with a low-cost foodtruck run as a cooperative to ensure equitable wealth stays in our community.  We're developing and implementing the robotics advances that will automate the harder parts of food prep for us. Follow the links below to learn more about our progress. </p>
             <div>
                 <div class="triple">
                     <h4><a href="plan">Foodtruck designs</a></h4>
